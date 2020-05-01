@@ -1,0 +1,19 @@
+.subtitle + .title {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.post + .post {
+    margin-top: 80px;
+}
+
+.tag {
+    float: right;
+    margin-bottom: 0;
+}

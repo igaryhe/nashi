@@ -1,0 +1,14 @@
+{% if page.taxonomies.types %}
+<h2 class="subtitle tag">
+    {% for type in page.taxonomies.types %}
+    <a href="/types/{{ type }}">#{{ type }}</a>
+    {% if not loop.last %} | {% endif %}
+    {% endfor %}
+</h2>
+{% endif %}
+<h2 class="subtitle">{{ page.date | date(format="%b, %Y") }}</h2>
+<h1 class="title">
+    {% if section %}<a href="{{ page.permalink }}">{% endif %}
+        {{ page.title }}
+    {% if section %}</a>{% endif %}
+</h1>

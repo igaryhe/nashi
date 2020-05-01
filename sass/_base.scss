@@ -1,0 +1,202 @@
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+body div,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dl,
+dt,
+em,
+fieldset,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: 400;
+  background: 0 0;
+}
+
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+    color: $content;
+}
+
+
+body {
+    padding: 0px 20px;
+}
+
+.title, .content {
+    @include font-hei;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+}
+
+header, footer, main, .pagination {
+    padding: 40px 0 40px 0;
+}
+
+.container {
+    max-width: $body-width;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+// logo
+.logo {
+    padding: 10px 10px 10px 0;
+    a {
+        text-decoration: none;
+    }
+}
+
+// navbar
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: strech;
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type:none;
+        li + li {
+            padding: 0 0 0 10px;
+        } 
+    }
+}
+
+.subtitle {
+    color: $grey;
+    line-height: 1.5em;
+    font-size: 14px;
+    margin-bottom: 20px;
+    @include font-hira;
+}
+
+.title {
+    font-size: $title-size;
+    font-weight: normal;
+    line-height: 1.25;
+    display: flex;
+    justify-content: flex-start;
+    color: $black;
+}
+
+.title + .title {
+    margin-top: 20px;
+}
+
+// paginator
+.previous {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    line-height: 1.5;
+}
+
+// youtube iframe
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 1.5em;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.social {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type:none;
+        li {
+            padding: 0 0 0 10px;
+        } 
+    }
+}
+
+.feather {
+    height: 24px;
+    width: 24px;
+    top: .125em;
+    position: relative;
+}

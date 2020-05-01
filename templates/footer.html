@@ -1,0 +1,16 @@
+{% import "feather.html" as feather %}
+<footer>
+    {% block footer %}
+    <nav class="social">
+        <ul>
+            <li><a href="https://twitter.com/igaryhe1">{{ feather::feather(name="twitter") }}</a></li>
+            <li><a href="https://github.com/igaryhe">{{ feather::feather(name="github") }}</a></li>
+            <li><a href="https://t.me/igaryhe">{{ feather::feather(name="send") }}</a></li>
+            <li><a href="mailto:igaryhe@gmail.com">{{ feather::feather(name="mail") }}</a></li>
+            <li><a href="/blog/rss.xml">{{ feather::feather(name="rss") }}</a></li>
+        </ul>
+    </nav>
+    <p>{{ config.extra.copyright | safe }}</p>
+    <p>Powered by <a href="https://www.getzola.org">Zola</a>.</p>
+    {% endblock footer %}
+</footer>

@@ -1,0 +1,16 @@
+base_url = "https://www.igaryhe.io"
+title = "Dan"
+default_language = "zh"
+compile_sass = true
+highlight_code = true
+build_search_index = false
+generate_rss = true
+taxonomies = [{name = "tags", rss = false},
+{name = "types", rss = false}]
+[extra]
+menu = [
+    {url = "portfolio", name = "Portfolio"},
+    {url = "blog", name = "Blog"},
+    {url = "about", name = "About"},
+]
+copyright = "2016-2020 © Dan <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">some right reserved.</a>"

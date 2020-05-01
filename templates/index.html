@@ -1,0 +1,37 @@
+{% import "feather.html" as feather %}
+<!DOCTYPE html>
+<html lang="{{ config.default_language }}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        {% block opengraph %}
+        {% endblock opengraph %}
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+        {% if config.generate_rss %}
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") }}">
+        {% endif %}
+        {% block css %}
+        <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) }}">
+        {% endblock css %}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="canonical" href="{{ config.base_url }}">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class="container">
+            {% include "header.html" %}
+            <main>
+                {% block content %}
+                <h1 class="title">Welcome</h1>
+                {% endblock content %}
+            </main>
+            {% include "paginator.html" %}
+            {% include "footer.html" %}
+        </div>
+    </body>
+</html>

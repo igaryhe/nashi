@@ -1,0 +1,28 @@
+{% extends "index.html" %}
+{% block opengraph %}
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ page.permalink }}" />
+{% if page.extra.image %}
+<meta property="og:image" content="{{ page.extra.image }}" />
+{% endif %}
+<meta property="article:tag" content="{% if page.taxonomies.tags %}{% for tag in page.taxonomies.tags %}{{ tag }}{% if not loop.last %} {% endif %}{% endfor %}{% endif %}{% if page.taxonomies.types %}{% for type in page.taxonomies.types %}{{ type }}{% if not loop.last %} {% endif %}{% endfor %}{% endif %}"/>
+{% endblock opengraph %}
+{% block title %}{{ page.title}} | {{ config.title }}{% endblock title %}
+{% block content %}
+{% if page.taxonomies.tags %}
+{% include "title-tags.html" %}
+{% elif page.taxonomies.types %}
+{% include "title-types.html" %}
+{% else %}
+<h2 class="subtitle">{{ page.date | date(format="%B %d, %Y") }}</h2>
+<h1 class="title">
+    <a href="{{ page.permalink }}">
+        {{ page.title }}
+    </a>
+</h1>
+{% endif %}
+<article class="content">
+    {{ page.content | safe }}
+</article>
+{% endblock content %}

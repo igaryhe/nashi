@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block title %}
+Blog | {{ config.title }}
+{% endblock title%}
+{% block content %}
+{% for page in paginator.pages %}
+<article class="post">
+    {% include "title-tags.html" %}
+    <div class="content summary">
+        {{ page.summary | safe }}
+    </div>
+</article>
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 80px;
+}
+
+img {
+    width: 100%;
+}
+
+.title + .subtitle {
+    padding-top: 10px;
+}

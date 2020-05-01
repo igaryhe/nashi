@@ -1,0 +1,14 @@
+{% if page.taxonomies.tags %}
+<h2 class="subtitle tag">
+    {% for tag in page.taxonomies.tags %}
+    <a href="/tags/{{ tag }}">#{{ tag }}</a>
+    {% if not loop.last %} | {% endif %}
+    {% endfor %}
+</h2>
+{% endif %}
+<h2 class="subtitle">{{ page.date | date(format="%B %d, %Y") }}</h2>
+<h1 class="title">
+    {% if section %}<a href="{{ page.permalink }}">{% endif %}
+    {{ page.title }}
+    {% if section %}</a>{% endif %}
+</h1>
