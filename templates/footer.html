@@ -3,11 +3,20 @@
     {% block footer %}
     <nav class="social">
         <ul>
-            <li><a href="https://twitter.com/igaryhe1">{{ feather::feather(name="twitter") }}</a></li>
-            <li><a href="https://github.com/igaryhe">{{ feather::feather(name="github") }}</a></li>
-            <li><a href="https://t.me/igaryhe">{{ feather::feather(name="send") }}</a></li>
-            <li><a href="mailto:igaryhe@gmail.com">{{ feather::feather(name="mail") }}</a></li>
-            <li><a href="/rss.xml">{{ feather::feather(name="rss") }}</a></li>
+            {% for social in config.extra.social %}
+            {% if social.type == "twitter" %}
+            <li><a href="https://twitter.com/{{ social.name }}">{{ feather::feather(name="twitter") }}</a></li>
+            {% endif %}
+            {% if social.type == "github" %}
+            <li><a href="https://github.com/{{ social.name }}">{{ feather::feather(name="github") }}</a></li>
+            {% endif %}
+            {% if social.type == "telegram" %}
+            <li><a href="https://t.me/{{ social.name }}">{{ feather::feather(name="send") }}</a></li>
+            {% endif %}
+            {% if social.type == "email" %}
+            <li><a href="mailto:{{ social.name }}">{{ feather::feather(name="mail") }}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </nav>
     <p>{{ config.extra.copyright | safe }}</p>

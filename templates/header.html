@@ -4,15 +4,19 @@
     </div>
     <nav class="menu">
         <ul>
-            <li><a href="/portfolio" title="portfolio">
+            {% for item in config.extra.menu %}
+            <li><a href="/{{ item.name }}">
+                {% if item.name == "portfolio" %}
                 {{ feather::feather(name="archive") }}
-            </a></li>
-            <li><a href="/blog" title="blog">
+                {% endif %}
+                {% if item.name == "blog" %}
                 {{ feather::feather(name="edit-3") }}
-            </a></li>
-            <li><a href="/about" title="about">
+                {% endif %}
+                {% if item.name == "about" %}
                 {{ feather::feather(name="alert-circle") }}
+                {% endif %}
             </a></li>
+            {% endfor %}
         </ul>
     </nav>
 </header>
