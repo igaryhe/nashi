@@ -15,7 +15,7 @@
                 <link>{{ page.permalink }}</link>
                 <guid>{{ page.permalink }}</guid>
                 <description>{% if page.summary %}{{ page.summary }}{% endif %}</description>
-                <content>{{ page.content }}</content>
+                <content type="html" xml:base="{{ config.base_url }}/blog">{{ page.content }}</content>
             </item>
         {% endif %}
         {% endfor %}
