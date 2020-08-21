@@ -3,7 +3,7 @@ title = "About"
 date = 2019-11-26T16:24:39+08:00
 +++
 
-Dan is a self-taught game designer and programmer, currently studying at Beijing University of Posts and Telecommunications.
+Dan is a self-taught game designer and programmer, currently studying at NYU Game Center.
 
 Video games are an important part of Dan's life. He started playing video games ever since three years old. The turning point of Dan's life was when he played "Braid" and "Fez". These two games made him realize the importance of game design, and even small teams could make video games as great as AAA titles. From then on, he started learning game design on his own.
 
