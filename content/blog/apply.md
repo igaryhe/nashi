@@ -1,6 +1,6 @@
 +++
 title = "申请"
-date = 2020-8-26
+date = 2020-08-26
 draft = false
 [taxonomies]
 tags = ["review", "test"]
