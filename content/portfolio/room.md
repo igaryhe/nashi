@@ -14,7 +14,7 @@ A visual novel that shouldn't be a visual novel.
 # Metadata
 - Date: September 2020
 - Genre: Visual Novel
-- Engine: Unity
+- Engine: Unity 2019.4
 - My Role: Game Designer, Programmer
 - Play at: [itch.io](https://igaryhe.itch.io/a-white-room)
 - Source Code: [Puzzlescript](https://github.com/igaryhe/room)
