@@ -2,6 +2,7 @@
 title = "Baba Is You Game Log"
 author = ["Dan"]
 date = 2019-03-18
+draft = true
 [taxonomies]
 tags = ["review", "test"]
 +++

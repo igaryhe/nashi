@@ -12,7 +12,7 @@ When you can shift between wall and floor.
 # Metadata:
 - Date: September 2019
 - Entry to: BOOOM Game Jam
-- Genre: Puzzle Game
+- Genre: Puzzle
 - Engine: PICO-8
 - My Role: Game Designer, Programmer
 - Play at: [itch.io](https://igaryhe.itch.io/shift)

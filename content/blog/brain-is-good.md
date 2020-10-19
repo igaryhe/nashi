@@ -3,7 +3,7 @@ title = "脑子是个好东西"
 author = ["Dan"]
 date = 2017-06-08
 [taxonomies]
-tags = ["review", "test"]
+tags = ["thought", "anime"]
 +++
 
 本来是想发个推的，但是万恶的140字让我感觉在写高考语文小作文。

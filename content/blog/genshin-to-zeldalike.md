@@ -4,7 +4,7 @@ author = ["Dan"]
 date = 2019-08-21
 draft = false
 [taxonomies]
-tags = ["review", "test"]
+tags = ["review", "game", "zelda"]
 +++
 
 原神的行径的确让我感到恶心。

@@ -12,7 +12,7 @@ Make all the vanes toward one direction.
 #### Metadata:
 - Date: August 2019
 - Entry to: NGC Game Jam
-- Genre: Puzzle Game
+- Genre: Puzzle
 - Engine: Unity 2019.1
 - My Role: Lead Game Designer, Programmer
 - Play at: [itch.io](https://mcatin.itch.io/vane)

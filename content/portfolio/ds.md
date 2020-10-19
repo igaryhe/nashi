@@ -12,7 +12,7 @@ What if there is no visible platform in a platformer?
 # Metadata
 - Date: October 2019
 - Entry to: Ludum Dare 45
-- Genre: Puzzle Game
+- Genre: Puzzle
 - Engine: Godot 3.1
 - My Role: Lead Game Designer, Programmer
 - Play at: [itch.io](https://igaryhe.itch.io/ds)

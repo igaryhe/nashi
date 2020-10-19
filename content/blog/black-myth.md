@@ -3,7 +3,7 @@ title = "《黑神话：悟空》引发的一些思考"
 date = 2020-08-22
 draft = false
 [taxonomies]
-tags = ["review", "test"]
+tags = ["thought", "game"]
 +++
 
 又是一篇因为推特写不下所以变成博客的文章。

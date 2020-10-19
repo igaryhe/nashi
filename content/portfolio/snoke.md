@@ -13,7 +13,7 @@ When Snake meets Pong.
 # Metadata
 - Date: July 2019
 - Entry to: ISART DIGITAL Workshop
-- Genre: Arcade Game
+- Genre: Arcade
 - Engine: Unity 2019.1
 - My Role: Lead Game Designer, Programmer
 - Play at: [itch.io](https://igaryhe.itch.io/kukulkan-yamata)

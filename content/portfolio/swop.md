@@ -1,28 +1,33 @@
 +++
-title = "A White Room"
-date = 2020-09-30
+title = "Swop"
+date = 2020-10-06
 [extra]
-image = "/img/room.png"
+image = "/img/swop.png"
 [taxonomies]
 types = ["game"]
 +++
 
-A visual novel that shouldn't be a visual novel.
+A sokoban-like game where you need to swap tiles on the floor to find a way to the goal.
 
 <!-- more -->
 
 # Metadata
-- Date: September 2020
-- Genre: Visual Novel
-- Engine: Unity 2019.4
-- My Role: Game Designer, Programmer
-- Play at: [itch.io](https://igaryhe.itch.io/a-white-room)
-- Source Code: [GitHub](https://github.com/igaryhe/room)
+- Date: October 2020
+- Genre: Puzzle
+- Engine: PICO-8 0.2.1b
+- My Role: Game Designer, Programmer, Composer
+- Play at: [itch.io](https://igaryhe.itch.io/swop)
+- Source Code: [GitHub](https://igaryhe.itch.io/swop)
 
 # Overview
-A visual novel assignment made for Game Studio I at [NYU Game Center](https://gamecenter.nyu.edu/).
+Entry to LD47.
 
-~5 minutes of gameplay.
+# Control
+- Arrow keys to move
+- Z(O on mobile) to start the game
+- X to undo
+- Enter to show menu
+- Restart is in the menu selection
 
 # Acknowledgement
 - Made with [Fungus](https://github.com/snozbot/fungus)

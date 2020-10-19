@@ -3,7 +3,7 @@ title = "博客迁移"
 author = ["Dan"]
 date = 2019-01-02
 [taxonomies]
-tags = ["review", "test"]
+tags = ["meta"]
 +++
 
 今天才听说了 `Hugo` 这个东西，简略看了一下发现比 `Hexo` 编译要快不少，而且没有复杂的依赖，而且原生支持 `org-mode` 。稍微调了一下主题最后选定在一个 `Jekyll` 移植过来的主题上，然后开始的博客的搬迁工作。
