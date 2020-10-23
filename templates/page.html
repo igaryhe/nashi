@@ -12,17 +12,26 @@
 {% block title %}{{ page.title}} | {{ config.title }}{% endblock title %}
 {% block content %}
 {% if page.taxonomies.tags %}
-{% include "tag-entry.html" %}
+<h2 class="subtitle tag">
+    {% for tag in page.taxonomies.tags %}
+    <a href="/tags/{{ tag }}">#{{ tag }}</a>
+    {% if not loop.last %} | {% endif %}
+    {% endfor %}
+</h2>
 {% elif page.taxonomies.types %}
-{% include "type-entry.html" %}
-{% else %}
+<h2 class="subtitle tag">
+    {% for type in page.taxonomies.types %}
+    <a href="/types/{{ type }}">#{{ type }}</a>
+    {% if not loop.last %} | {% endif %}
+    {% endfor %}
+</h2>
+{% endif %}
 <h2 class="subtitle">{{ page.date | date(format="%B %d, %Y") }}</h2>
 <h1 class="title">
-    <a href="{{ page.permalink }}">
-        {{ page.title }}
-    </a>
+    {% if section %}<a href="{{ page.permalink }}">{% endif %}
+    {{ page.title }}
+    {% if section %}</a>{% endif %}
 </h1>
-{% endif %}
 <article class="content">
     {{ page.content | safe }}
 </article>
