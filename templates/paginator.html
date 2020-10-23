@@ -2,12 +2,12 @@
 <nav class="pagination">
     {% if paginator.previous %}
     <a class="previous" href="{{ paginator.previous }}">
-        {{ feather::feather(name="chevrons-left") }}
+        &lt;
     </a>
     {% endif %}
     {% if paginator.next %}
     <a class="next" href="{{ paginator.next }}">
-        {{ feather::feather(name="chevrons-right") }}
+        &gt;
     </a>
     {% endif %}
 </nav>

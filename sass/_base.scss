@@ -129,9 +129,10 @@ header {
         align-items: center;
         list-style-type:none;
         li + li {
-            padding: 0 0 0 10px;
+            padding: 0 0 0 20px;
         } 
     }
+    font-size: 20px;
 }
 
 .subtitle {
@@ -158,10 +159,12 @@ header {
 // paginator
 .previous {
     float: left;
+    font-size: 24px;
 }
 
 .next {
     float: right;
+    font-size: 24px;
 }
 
 footer {
@@ -180,26 +183,6 @@ iframe {
     position: absolute;
     width: 100%;
     height: 100%;
-}
-
-/*.social {
-    ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style-type:none;
-        li {
-            padding: 0 0 0 10px;
-        } 
-    }
-}
-*/
-
-.feather {
-    height: 24px;
-    width: 24px;
-    top: .125em;
-    position: relative;
 }
 
 .title-img {

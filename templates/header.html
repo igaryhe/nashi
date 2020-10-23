@@ -7,13 +7,13 @@
             {% for item in config.extra.menu %}
             <li><a href="/{{ item.name }}">
                 {% if item.name == "portfolio" %}
-                {{ feather::feather(name="archive") }}
+                Portfolio
                 {% endif %}
                 {% if item.name == "blog" %}
-                {{ feather::feather(name="edit-3") }}
+                Blog
                 {% endif %}
                 {% if item.name == "about" %}
-                {{ feather::feather(name="info") }}
+                About
                 {% endif %}
             </a></li>
             {% endfor %}

@@ -1,26 +1,5 @@
-{% import "feather.html" as feather %}
 <footer>
     {% block footer %}
-    <!--
-    <nav class="social">
-        <ul>
-            {% for social in config.extra.social %}
-            {% if social.type == "twitter" %}
-            <li><a href="https://twitter.com/{{ social.name }}">{{ feather::feather(name="twitter") }}</a></li>
-            {% endif %}
-            {% if social.type == "github" %}
-            <li><a href="https://github.com/{{ social.name }}">{{ feather::feather(name="github") }}</a></li>
-            {% endif %}
-            {% if social.type == "telegram" %}
-            <li><a href="https://t.me/{{ social.name }}">{{ feather::feather(name="send") }}</a></li>
-            {% endif %}
-            {% if social.type == "email" %}
-            <li><a href="mailto:{{ social.name }}">{{ feather::feather(name="mail") }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </nav>
-    -->
     <p>{{ config.extra.copyright | safe }}</p>
     <p>Powered by <a href="https://www.getzola.org">Zola</a>.</p>
     {% endblock footer %}
