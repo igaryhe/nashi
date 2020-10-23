@@ -1,7 +1,7 @@
 +++
 title = "视角"
 date = 2020-10-19
-draft = false
+draft = true
 [taxonomies]
 tags = ["school"]
 +++
