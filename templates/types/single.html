@@ -3,12 +3,10 @@
 <div class="grid">
     {% for page in term.pages %}
     <article class="work">
+        <a href="{{ page.permalink }}"><img class="preview" src="{{ page.extra.image }}"/></a>
         {% if page.taxonomies.types %}
         {% include "title-types.html" %}
         {% endif %}
-        <a href="{{ page.permalink }}"><img class="preview" src="{{ page.extra.image }}"/></a>
-        <h1 class="title"><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
-        <h2 class="subtitle">{{ page.summary | safe }}</h2>
     </article>
     {% endfor %}
 </div>
