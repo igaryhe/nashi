@@ -4,7 +4,7 @@
     {% for page in term.pages %}
     <article class="work">
         {% if page.taxonomies.types %}
-        {% include "portfolio-entry.html" %}
+        {% include "type-entry.html" %}
         {% endif %}
     </article>
     {% endfor %}

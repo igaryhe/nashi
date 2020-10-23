@@ -4,19 +4,9 @@
     </div>
     <nav class="menu">
         <ul>
-            {% for item in config.extra.menu %}
-            <li><a href="/{{ item.name }}">
-                {% if item.name == "portfolio" %}
-                Portfolio
-                {% endif %}
-                {% if item.name == "blog" %}
-                Blog
-                {% endif %}
-                {% if item.name == "about" %}
-                About
-                {% endif %}
-            </a></li>
-            {% endfor %}
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
         </ul>
     </nav>
 </header>

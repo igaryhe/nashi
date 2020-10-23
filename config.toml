@@ -5,18 +5,6 @@ compile_sass = true
 highlight_code = true
 build_search_index = false
 generate_rss = true
-taxonomies = [{name = "tags", rss = false},
-{name = "types", rss = false}]
+taxonomies = [{name = "tags", rss = false}, {name = "types", rss = false}]
 [extra]
-menu = [
-    {name = "portfolio"},
-    {name = "blog"},
-    {name = "about"},
-]
 copyright = "2016-2020 © Dan <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">some right reserved.</a>"
-social = []
-##    {type = "twitter", name = "igaryhe1"},
-##    {type = "github", name = "igaryhe"},
-##    {type = "telegram", name = "igaryhe"},
-##    {type = "email", name = "igaryhe@gmail.com"},
-## ]

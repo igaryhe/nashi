@@ -3,7 +3,7 @@
 {% for page in term.pages %}
 <article class="post">
     {% if page.taxonomies.tags %}
-    {% include "blog-entry.html" %}
+    {% include "tag-entry.html" %}
     {% endif %}
 </article>
 {% endfor %}
