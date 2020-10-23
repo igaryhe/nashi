@@ -81,6 +81,7 @@ html {
 
 body {
     padding: 0px 20px;
+    overflow-y: scroll;
 }
 
 .title, .content {
@@ -182,7 +183,7 @@ iframe {
     height: 100%;
 }
 
-.social {
+/*.social {
     ul {
         display: flex;
         justify-content: center;
@@ -193,6 +194,7 @@ iframe {
         } 
     }
 }
+*/
 
 .feather {
     height: 24px;

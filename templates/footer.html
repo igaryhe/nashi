@@ -1,6 +1,7 @@
 {% import "feather.html" as feather %}
 <footer>
     {% block footer %}
+    <!--
     <nav class="social">
         <ul>
             {% for social in config.extra.social %}
@@ -19,6 +20,7 @@
             {% endfor %}
         </ul>
     </nav>
+    -->
     <p>{{ config.extra.copyright | safe }}</p>
     <p>Powered by <a href="https://www.getzola.org">Zola</a>.</p>
     {% endblock footer %}
