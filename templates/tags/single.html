@@ -2,18 +2,9 @@
 {% block content %}
 {% for page in term.pages %}
 <article class="post">
-    <h2 class="subtitle tag">{{ page.date | date(format="%B %d, %Y") }}</h2>
-    {% for tag in page.taxonomies.tags %}
-    <a href="/tags/{{ tag }}">#{{ tag }}</a>
-    {% endfor %}
-    <h1 class="title">
-        <a href="{{ page.permalink }}">
-            {{ page.title }}
-        </a>
-    </h1>
-    <div class="content summary">
-        {{ page.summary | safe }}
-    </div>
+    {% if page.taxonomies.tags %}
+    {% include "title-tags.html" %}
+    {% endif %}
 </article>
 {% endfor %}
 {% endblock content %}
