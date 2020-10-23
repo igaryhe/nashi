@@ -5,10 +5,7 @@ Blog | {{ config.title }}
 {% block content %}
 {% for page in paginator.pages %}
 <article class="post">
-    {% include "title-tags.html" %}
-    <div class="content summary">
-        {{ page.summary | safe }}
-    </div>
+    {% include "blog-entry.html" %}
 </article>
 {% endfor %}
 {% endblock content %}

@@ -3,9 +3,8 @@
 <div class="grid">
     {% for page in term.pages %}
     <article class="work">
-        <a href="{{ page.permalink }}"><img class="preview" src="{{ page.extra.image }}"/></a>
         {% if page.taxonomies.types %}
-        {% include "title-types.html" %}
+        {% include "portfolio-entry.html" %}
         {% endif %}
     </article>
     {% endfor %}

@@ -12,9 +12,9 @@
 {% block title %}{{ page.title}} | {{ config.title }}{% endblock title %}
 {% block content %}
 {% if page.taxonomies.tags %}
-{% include "title-tags.html" %}
+{% include "blog-entry.html" %}
 {% elif page.taxonomies.types %}
-{% include "title-types.html" %}
+{% include "portfolio-entry.html" %}
 {% else %}
 <h2 class="subtitle">{{ page.date | date(format="%B %d, %Y") }}</h2>
 <h1 class="title">

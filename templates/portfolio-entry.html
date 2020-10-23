@@ -1,3 +1,4 @@
+<a href="{{ page.permalink }}"><img class="preview" src="{{ page.extra.image }}"/></a>
 {% if page.taxonomies.types %}
 <h2 class="subtitle tag">
     {% for type in page.taxonomies.types %}
@@ -12,3 +13,4 @@
         {{ page.title }}
     {% if section %}</a>{% endif %}
 </h1>
+<h2 class="subtitle">{{ page.summary | safe }}</h2>

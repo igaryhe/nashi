@@ -6,9 +6,7 @@ Portfolio | {{config.title}}
 <div class="grid">
     {% for page in section.pages %}
     <article class="work">
-        <a href="{{ page.permalink }}"><img class="preview" src="{{ page.extra.image }}"/></a>
-        {% include "title-types.html" %}
-        <h2 class="subtitle">{{ page.summary | safe }}</h2>
+        {% include "portfolio-entry.html" %}
     </article>
     {% endfor %}
 </div>
