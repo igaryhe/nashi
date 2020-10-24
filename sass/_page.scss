@@ -22,12 +22,11 @@
         margin-top: 0.25em;
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #b52323;
-        font-weight: 300;
+        font-weight: 400;
         margin-bottom: 20px;
         line-height: 1.25;
         &:not(:first-child) {
-            margin-top: 80px;
+            margin-top: 40px;
         }
     }
     h1+h2, h2+h3, h3+h4, h4+h5, h5+h6 {
