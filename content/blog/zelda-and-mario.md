@@ -4,7 +4,7 @@ author = ["Dan"]
 date = 2017-10-27
 draft = false
 [taxonomies]
-tags = ["review", "game", "zelda", "mario"]
+tags = ["review", "game"]
 +++
 
 适逢马力欧新作发售，看到网上有人发文称《奥德赛》中使用到了藤林秀麿先生在CEDEC 17有关《旷野之息》的演讲中提到的“引力”诱导的概念。由此引发了我的一些思考，感觉还是产生了一些有价值的内容，于是便想记录下来。
