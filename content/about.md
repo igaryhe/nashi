@@ -15,5 +15,5 @@ You could find Dan's resume [here](/resume.pdf).
 `igaryhe` is the handle used by Dan. You could contact him by:
 - Twitter: [`@igaryhe1`](https://twitter.com/igaryhe1)
 - GitHub: [`igaryhe`](https://github.com/igaryhe)
-- Email: [`igaryhe#gmail.com`](mailto:igaryhe@gmail.com)
+- Email: [`i#igaryhe.io`](mailto:i@igaryhe.io)
 - PGP: [`B17E7CFADED8D81E`](/pubkey.asc)
