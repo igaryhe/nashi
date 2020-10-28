@@ -20,6 +20,6 @@ A walking simulator with many dark rooms.
 - Source Code: [GitHub](https://github.com/igaryhe/maze)
 
 # Overview
-A visual novel assignment made for Game Studio I at [NYU Game Center](https://gamecenter.nyu.edu/).
+A walking simulator assignment made for Game Studio I at [NYU Game Center](https://gamecenter.nyu.edu/).
 
 ~10 minutes of gameplay.
