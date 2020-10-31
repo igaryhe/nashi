@@ -1,6 +1,4 @@
 .subtitle + .title {
-    margin-top: -20px;
-    margin-bottom: 20px;
     a {
         text-decoration: none;
         &:hover {
@@ -10,10 +8,9 @@
 }
 
 .post + .post {
-    margin-top: 80px;
+    margin-top: 3rem;
 }
 
 .tag {
     float: right;
-    margin-bottom: 0;
 }

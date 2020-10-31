@@ -6,12 +6,12 @@ html {
 
 
 body {
-    padding: 0px 20px;
+    padding: 0 1rem;
     overflow-y: scroll;
 }
 
 .title, .content {
-    @include font-hei;
+    @include font-mai;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 }
 
 header, footer, main {
-    padding: 40px 0 40px 0;
+    padding: 2rem 0 2rem 0;
 }
 
 .container {
@@ -39,7 +39,7 @@ header {
 
 // logo
 .logo {
-    padding: 10px 10px 10px 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
     a {
         text-decoration: none;
     }
@@ -59,19 +59,18 @@ header {
             text-decoration: none;
         }
         li + li {
-            padding: 0 0 0 15px;
+            padding: 0 0 0 0.5rem;
         } 
     }
-    font-size: 18px;
 }
 
 .subtitle {
     color: $grey;
     line-height: 1.5em;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: lighter;
-    @include font-hira;
 }
 
 .title {
@@ -81,15 +80,17 @@ header {
     display: flex;
     justify-content: flex-start;
     color: $black;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .title + .title {
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 
 // paginator
 .pagination {
-    padding: 10px 0 10px 0;
+    padding: 0.5rem 0 0.5rem 0;
     font-size: 24px;
     a:hover {
         text-decoration: none;
