@@ -67,7 +67,7 @@ header {
 .subtitle {
     color: $grey;
     line-height: 1.5em;
-    font-size: 14px;
+    font-size: $small-size;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: lighter;
@@ -91,7 +91,7 @@ header {
 // paginator
 .pagination {
     padding: 0.5rem 0 0.5rem 0;
-    font-size: 24px;
+    font-size: $title-size;
     a:hover {
         text-decoration: none;
     }

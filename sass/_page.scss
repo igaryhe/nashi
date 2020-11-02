@@ -4,7 +4,7 @@
     font-weight: normal;
     blockquote {
         background-color: #f5f7fa;
-	border-left: 5px solid #d3d6db;
+	border-left: 0.3rem solid #d3d6db;
 	padding: 1.5em;
     }
     blockquote, ol, p, ul, pre, table {
@@ -23,34 +23,34 @@
     }
     h1, h2, h3, h4, h5, h6 {
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
         line-height: 1.25;
         &:not(:first-child) {
-            margin-top: 40px;
+            margin-top: 2rem;
         }
     }
     h1+h2, h2+h3, h3+h4, h4+h5, h5+h6 {
         &:not(:first-child) {
-            margin-top: 20px;
+            margin-top: 1rem;
         }
     }
     h1 {
-        font-size: 24px;
+        font-size: 1.25rem;
     }
     h2 {
-        font-size: 22px;
+        font-size: 1.2rem;
     }
     h3 {
-        font-size: 20px;
+        font-size: 1.15rem;
     }
     h4 {
-        font-size: 18px;
+        font-size: 1.1rem;
     }
     h5 {
-        font-size: 17px;
+        font-size: 1.05rem;
     }
     h6 {
-        font-size: 16px;
+        font-size: 1rem;
     }
     pre, code {
         @include font-code;
