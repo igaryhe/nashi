@@ -7,22 +7,14 @@
 	border-left: 0.3rem solid #d3d6db;
 	padding: 1.5em;
     }
-    blockquote, ol, p, ul, pre, table {
-        &:not(:last-child) {
-            margin-bottom: 1.5em;
-        }
-    }
     p {
         text-align: left;
-    }
-    ol, ul {
-        margin: 1em 2em 1.5em 2em;
     }
     li+li {
         margin-top: 0.25em;
     }
     h1, h2, h3, h4, h5, h6 {
-        font-weight: 400;
+        font-weight: normal;
         margin-bottom: 1rem;
         line-height: 1.25;
         &:not(:first-child) {
