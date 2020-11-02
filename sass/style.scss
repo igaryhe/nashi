@@ -1,10 +1,32 @@
 $body-width: 40rem;
-$grey: #69707a;
-$black: #222324;
-$content: #42464c;
 $content-size: 1rem;
 $title-size: 1.25rem;
 $small-size: 0.9rem;
+
+$subtitle: #707070;
+$bg: #fefefe;
+$title: #222;
+$content: #424242;
+$link: #323232;
+$code-bg: #f8f8f8;
+$code-border: #ddd;
+
+$subtitle-dark: #8f8f8f;
+$bg-dark: #282828;
+$title-dark: #ddd;
+$content-dark: #bdbdbd;
+$link-dark: #cdcdcd;
+$code-bg-dark: #2f2f2f;
+$code-border-dark: #444;
+
+@mixin light {
+    @media screen and (prefers-color-scheme: light) { @content; }
+}
+
+@mixin dark {
+    @media screen and (prefers-color-scheme: dark) { @content; }
+}
+
 @import "normalize";
 @import "fonts";
 @import "base";

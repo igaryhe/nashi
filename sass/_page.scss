@@ -1,10 +1,21 @@
 .content {
     line-height: 1.75;
-    background: #fefefe;
+    @include light {
+        background: $bg;
+    }
+    @include dark {
+        background: $bg-dark;
+    }
     font-weight: normal;
     blockquote {
-        background-color: #f5f7fa;
-	border-left: 0.3rem solid #d3d6db;
+        @include light {
+            background-color: $code-bg;
+            border-left: 0.3rem solid $code-border;
+        }
+        @include dark {
+            background-color: $code-bg-dark;
+            border-left: 0.3rem solid $code-border-dark;
+        }
 	padding: 1.5em;
     }
     p {
@@ -49,9 +60,15 @@
         font-size: 90%;
         padding: 2px 4px;
         margin: 0 2px;
-        border: 1px solid #ddd;
         border-radius: 4px;
-        background-color: #f8f8f8;
+        @include light {
+            border: 1px solid $code-border;
+            background-color: $code-bg;
+        }
+        @include dark {
+            border: 1px solid $code-border-dark;
+            background-color: $code-bg-dark;
+        }
     }
 
     pre > code {
@@ -65,9 +82,18 @@
     }
     a {
         text-decoration: underline;
-        color: #2077b2;
-        &:hover {
-            color: $content;
+        @include light {
+            color: $link;
+            &:hover {
+                color: $content;
+            }
         }
+        @include dark {
+            color: $link-dark;
+            &:hover {
+                color: $content-dark;
+            }
+        }
+        
     }
 }

@@ -1,7 +1,14 @@
 html {
     font-size: 16px;
     box-sizing: border-box;
-    color: $content;
+    @include light {
+        color: $content;
+        background-color: $bg;
+    }
+    @include dark {
+        color: $content-dark;
+        background-color: $bg-dark;
+    }
 }
 
 
@@ -50,22 +57,30 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: strech;
+    font-size: $small-size;
     ul {
         display: flex;
         justify-content: center;
         align-items: center;
         list-style-type:none;
+        margin-top: 0;
+        margin-bottom: 0;
         a {
             text-decoration: none;
         }
         li + li {
-            padding: 0 0 0 0.5rem;
+            padding: 0 0 0 0.6rem;
         } 
     }
 }
 
 .subtitle {
-    color: $grey;
+    @include light {
+        color: $subtitle;
+    }
+    @include dark {
+        color: $subtitle-dark;
+    }
     line-height: 1.5em;
     font-size: $small-size;
     margin-top: 0;
@@ -74,12 +89,17 @@ header {
 }
 
 .title {
+    @include light {
+        color: $title;
+    }
+    @include dark {
+        color: $title-dark;
+    }
     font-size: $title-size;
     font-weight: normal;
     line-height: 1.25;
     display: flex;
     justify-content: flex-start;
-    color: $black;
     margin-top: 0;
     margin-bottom: 0;
 }
