@@ -26,7 +26,14 @@
             {% include "header.html" %}
             <main>
                 {% block content %}
-                <img class="title-img" src="/img/hakase-alt.svg">
+                <div class="title-img">
+                    <svg class="svg">
+                        <rect x="0" y="0" width="50%" height="50%" style="fill:#F3F3F3"></rect>
+                        <rect x="50%" y="0" width="50%" height="50%" style="fill:#F3C295"></rect>
+                        <rect x="50%" y="50%" width="50%" height="50%" style="fill:#FAE8D2"></rect>
+                        <rect x="0" y="50%" width="50%" height="50%" style="fill:#E4948A"></rect>
+                    </svg>
+                </div>
                 {% endblock content %}
             </main>
             {% include "paginator.html" %}

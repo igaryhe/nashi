@@ -145,7 +145,18 @@ iframe {
 .title-img {
     width: 50%;
     margin: 0 auto;
-    display: block;
+    padding-top: 50%;
+    position: relative;
+}
+
+.svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .subtitle + .title {
