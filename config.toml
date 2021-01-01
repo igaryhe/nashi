@@ -7,4 +7,4 @@ build_search_index = false
 generate_rss = true
 taxonomies = [{name = "tags", rss = false}, {name = "types", rss = false}]
 [extra]
-copyright = "2016-2020 © Dan <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">some right reserved.</a>"
+copyright = "2016-2021 © Dan <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">some right reserved.</a>"
