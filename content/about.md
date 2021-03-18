@@ -9,7 +9,7 @@ Video games are an important part of Dan's life. He started playing video games 
 
 Inspired by [Jonathan Blow](https://twitter.com/Jonathan_Blow), [Stephen Lavelle](https://increpare.com/), Philippe Poisson and [Alan Hazelden](https://www.draknek.org/), Dan is especially keen on puzzle games. He believes the artistic part of the video games lies in the ingeniously designed puzzles. Thus, a majority of his current works are puzzle games.
 
-You could find Dan's resume [here](/resume.pdf).
+You could find Dan's resume [here](/resume.pdf) [[中文版](/resume_cn.pdf)].
 
 ## Contact
 `igaryhe` is the handle used by Dan. You could contact him by:
