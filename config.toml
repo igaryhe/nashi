@@ -1,5 +1,5 @@
-base_url = "https://www.igaryhe.io"
-title = "Dan"
+base_url = "https://www.dan.games"
+title = "dan"
 default_language = "zh"
 compile_sass = true
 highlight_code = true
